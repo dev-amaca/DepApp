@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <link rel="stylesheet" href="resources\css\Library\framework7.material.min.css">
+    <link rel="stylesheet" href="resources\css\Library\framework7.material.colors.min.css">
+    <link rel="stylesheet" href="resources\css\main.css">
+  </head>
+
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Left panel content goes here</p>
+      </div>
+    </div>
+
+    <div class="views">
+      <div class="view view-main">
+
+        <div class="navbar">
+          <div class="navbar-inner backColorBlack">
+            <div class="center sliding">Awesome App</div>
+            <div class="right">
+              <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pages navbar-through toolbar-through">
+          <div data-page="index" class="page">
+            <div class="page-content">
+
+              <div id="txtUserWelcome"></div>
+
+              <div class="content-block-title Font-15">Departamentos</div>
+              <div class="list-block media-list">
+                <ul>
+                  <li>
+                    <a href="resources/pages_html/info_depa.html" class="item-link item-content">
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">Departamento 1</div>
+                          <div class="item-after">Ocupado</div>
+                        </div>
+                        <div class="item-subtitle">Arrendatario</div>
+                        <div class="item-text">Telefono</div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
+
+
+            </div>
+
+            <div class="login-screen">
+                <!-- Default view-page layout -->
+                <div class="view">
+                  <div class="page">
+                    <!-- page-content has additional login-screen content -->
+                    <div class="page-content login-screen-content" id="Back-Img">
+                      <div class="login-screen-title WHITE Font-NameApp-Login" id="Login-ImgAling">DepApp</div>
+                      <!-- Login form -->
+                      <form id="form-login">
+                        <div class="list-block">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-inner">
+                                <div class="item-input">
+                                  <input type="text" name="user" placeholder="Username" class="TEXT-CENTER InputLogIn" id="txtUser" style="font-size: 20px; color: white; border-radius: 10px;">
+                                </div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-inner">
+                                <div class="item-input">
+                                  <input type="password" name="password" placeholder="Password" class="TEXT-CENTER InputLogIn" id="txtPass" style="font-size: 20px; color: white; border-radius: 10px;">
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="list-block">
+                          <ul>
+                            <li>
+                              <table class="Ancho100Por">
+                                <tr><td class="Anch025Por"></td><td><p class="buttons-row"><a href="#" class="button button-fill button-raised backColorBlack Font-15 B-Radius10" id="btnLogin">Iniciar</a></p></td><td class="Anch025Por"></td></tr>
+                              </table>
+                            </li>
+                          </ul>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="toolbar backColorBlack">
+          <div class="toolbar-inner">
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script type="text/javascript" src="resources\js\Library\framework7.min.js"></script>
+    <script type="text/javascript" src="resources\js\Library\jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="resources\js\Obj.js"></script>
+    <script type="text/javascript" src="resources\main.js"></script>
+  </body>
+</html>

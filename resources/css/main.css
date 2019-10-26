@@ -1,0 +1,61 @@
+#form-login{ position: absolute; top: 40%; text-align: center; width: 100%;}
+#Login-ImgAling{ position: relative; top: 20%;}
+#Back-Img{ background-image: url(../img/FondoDepa.jpg); background-size: 725px 900px; background-repeat: no-repeat; position: relative;}
+
+
+/* FORMATO DE ALINEACION DE TEXTO*/
+.TEXT-CENTER{text-align: center;}
+
+/* COLORES */
+.WHITE{ color: white; }
+
+.backColorBlack{ background-color: black !important;}
+
+/* FOMTS */
+.Font-NameApp-Login{ font-size: 60px;}
+.Font-25{font-size: 25px;}
+.Font-20{font-size: 20px;}
+.Font-15{ font-size: 15px;}
+
+.Font-Bold1{ font-weight: bold; }
+.Font-Cursive{font-family: cursive; }
+
+/* INPUTS */
+#txtUser::placeholder { color: white; opacity: 1; font-size: 20px; font-weight: 700;}
+#txtPass::placeholder { color: white; opacity: 1; font-size: 20px; font-weight: 700;}
+
+/* ANCHOS */
+.Ancho100Por{ width: 100%;}
+.Anch025Por{ width: 25%;}
+
+/* BORDES */
+.B-Radius10{ border-radius: 10px; }
+
+/* CONTENEDORES */
+.Cont-Welcome{ text-align: center; font-size: 25px; font-weight: bold; font-family: cursive; }
+
+/* ANIMATES */
+.Animate-Welcome {
+	-webkit-animation: Animate-Welcome 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: Animate-Welcome 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes Animate-Welcome {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes Animate-Welcome {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
